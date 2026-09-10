@@ -237,9 +237,10 @@ uvicorn api.main:app --reload --host 127.0.0.1 --port 8000
 
 ### 8. Run frontend
 
-Open a new terminal, navigate to the `frontend` folder, install packages (if required), and run:
+Open a new terminal, navigate to the frontend folder, install the frontend dependencies, and start the Vite development server:
 ```bash
-cd frontend
+cd frontend 
+npm install 
 npm run dev
 ```
 
